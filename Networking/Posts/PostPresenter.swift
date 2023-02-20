@@ -9,7 +9,7 @@ import Foundation
 
 class PostPresenter {
     var likes:Int?
-    var page = 0
+    var page = 20
     var total = 0
     var posts : [PostModel]!
     weak var view: PostView?
